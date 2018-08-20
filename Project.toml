@@ -1,7 +1,7 @@
 name = "Redis"
 uuid = "26e51c44-a428-11e8-2f26-51521cfc1037"
 authors = ["tomaswyz"]
-version = "0.1.0"
+version = "0.1.2"
 
 [deps]
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"

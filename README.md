@@ -5,13 +5,16 @@
 
 
 
-Redis.jl is a fully-featured Redis client for the Julia programming language. The implementation is an attempt at an easy to understand, minimalistic API that mirrors actual Redis commands as closely as possible.
+Redis.jl is a fully-featured Redis client for the Julia programming language. The implementation is an attempt at an easy to understand, minimalistic API that mirrors actual Redis commands as closely as possible. 
+
+This branch has been updated to Julia-v1.0.0
 
 ## Basics
 
 The Redis.jl API resides in the `Redis` module.
 
 ```
+Pkg.add("https://github.com/blueway/Redis.jl")
 using Redis
 ```
 
